@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10vh;
+    gap: 20px;
+}
+
+main form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+main table {
+    width: 70%;
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    flex-grow: 1;
+}
